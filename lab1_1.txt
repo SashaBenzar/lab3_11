@@ -8,7 +8,7 @@ scanf("%d",&y);
 printf("введіть z=");
 scanf("%d",&z);
 if(y==-8){
-x=sqrt(3*(y/(z-2*y)));
+x=sqrt(3*(y/(z-2*y)))-y*z;
 printf("x="); 
 printf("%d", x); 
 }
