@@ -1,0 +1,27 @@
+﻿#include <stdio.h>
+#include <math.h>
+int main()
+{
+int a,b,c,d;
+printf("a=");
+scanf("%d",&a);
+printf("b=");
+scanf("%d",&b);
+printf("c=");
+scanf("%d",&c);
+if(a<b && b<c)
+{
+    a=-1*a;
+    b=-1*b;
+    c=-1*c;
+    printf("%d ",a);
+    printf("%d ",b);
+    printf("%d ",c);
+}
+else
+{
+   d=pow(a,2)+pow(b,2)+pow(c,2); 
+   printf("%d",d);
+}
+    return 0;
+}

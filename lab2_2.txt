@@ -1,0 +1,38 @@
+﻿#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("введіть свій вік:");
+    scanf("%d",&a);
+    switch(a)
+    {
+         case 58000:printf("Чернівці"); break;
+         case 21000:printf("Вінниця"); break;
+         case 43000:printf("Луцьк"); break;
+         case 49000:printf("Дніпро"); break;
+         case 83000:printf("Донецьк"); break;
+         case 10000:printf("Житомир"); break;
+         case 88000:printf("Ужгород"); break;
+         case 69000:printf("Запоріжжя"); break;
+         case 76000:printf("Івано-Франківськ"); break;
+         case 25000:printf("Кропивницький"); break;
+         case 10001:printf("Київ"); break;
+         case 91000:printf("Луганськ"); break;
+         case 79000:printf("Львів"); break;
+         case 54000:printf("Миколаїв"); break;
+         case 65000:printf("Одеса"); break;
+         case 36000:printf("Полтава"); break;
+         case 33000:printf("Рівне"); break;
+         case 99000:printf("Севастополь"); break;
+         case 40000:printf("Суми"); break;
+         case 46000:printf("Тернопіль"); break;
+         case 61000:printf("Харків"); break;
+         case 29000:printf("Хмельницький"); break;
+         case 18000:printf("Черкаси"); break;
+         case 14000:printf("Чернігів"); break;
+         default: printf("помилка"); break;
+    }
+
+    return 0;
+}
