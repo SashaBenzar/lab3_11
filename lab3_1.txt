@@ -1,0 +1,25 @@
+﻿#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+int x,y;
+float z,a,verh,niz;
+printf("введіть точку x=");
+scanf("%d",&x);
+printf("введіть точку y=");
+scanf("%d",&y);
+z=pow(x,2)+4;
+verh=x+y/z;
+niz=pow(2.72,-2-x)+1/z;
+if(z==0 || niz==0)
+{
+printf("помилка");
+}
+else
+{
+a=(1+y)*(verh/niz);
+printf("%f", a); 
+}
+    return 0;
+}
